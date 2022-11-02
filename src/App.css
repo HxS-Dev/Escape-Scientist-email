@@ -71,9 +71,10 @@ code {
 
 .loginForm {
   z-index: 1;
-  position: fixed;
+  position: absolute;
   margin-top: -30%;
-  padding-left: 39%;
+  margin-top: -30%;
+  padding-left: 37%;
   font-size: 70px;
   text-align: center;
 }
@@ -82,4 +83,15 @@ code {
   width: 500px;
   height: 100px;
   font-size: 50px;
+}
+
+.loginError {
+  z-index: 0;
+  position: absolute;
+  color: red;
+  margin-top: -7%;
+  margin-bottom: -7%;
+  padding-left: 30%;
+  font-size: 50px;
+  display: none;
 }
