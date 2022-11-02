@@ -12,7 +12,10 @@ export const LoginPage = () => {
   const onLoginFormSubmit = (e) => {
     e.preventDefault();
 
-    if (username.toLowerCase() == "sonia.nygaard" && password == "HeISeNBeRg") {
+    if (
+      username.toLowerCase() == "sonia.nygaard" &&
+      password == "`HeISeNBeRg`"
+    ) {
       setShowEmail(true);
     } else {
       document.querySelector(".loginError").style.display = "block";
