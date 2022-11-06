@@ -18,7 +18,7 @@ function Emails() {
             <h1 className="subject-name">Zaineb Daoudi</h1>
           </Tab>
           <Tab>
-            <h1>Spillages & sterilisation</h1>
+            <h1>Essex personnel</h1>
             <h1 className="subject-name">Blaine Wilson</h1>
           </Tab>
           <Tab>
@@ -69,18 +69,27 @@ function Emails() {
             </h1>
             <h1 className="to-from">From: Blaine Wilson</h1>
             <div className="subject-wrapper">
-              <h1 className="subject">Spillages & sterilisation</h1>
+              <h1 className="subject">Essex personnel</h1>
             </div>
           </div>
           <div className="panel-content">
             Hello, <br />
             <br />
             <br />
-            I've noticed a steady uptick in the number of spillages in the lab.
-            Frankly, this is unacceptable. The <br />
-            rules of the lab must be followed at all times to maintain a sterile
-            environment. If anyone needs a <br />
-            refresher on the rules, please let me know.
+            Luckily the chaos with the reshuffling of staff by head office in
+            the Essex lab has come to an end. Hopefully we can learn from their
+            mistakes to avoid a similar situation here. <br />
+            They started with 8 people in Team C, before transferring 5 into
+            Team B, who then split again leaving 3 in Team A and 2 in Team B.{" "}
+            <br />
+            Then all of team A moved back to Team C to form a team of 6, while
+            Team B transferred to Team A.
+            <br />
+            Team C then moved 5 people into Team B, leaving 1 in team C who will
+            continue to work solo.
+            <br />
+            Finally, Team B transferred 1 extra man to Team A which all are
+            happy with.
             <br />
             <br />
             <br /> Regards,
@@ -107,11 +116,13 @@ function Emails() {
             Our procurement department has just given me some exciting <br />
             news! They have managed to secure a small sample of the <br />
             extremely rare and extremely expensive chemical Potassium <br />
+            <br />
             Ferricyanide to help with our research. Only <br />
             one vial is stored in the safe in the storage room, not to be
             accessed <br />
             unless you are certain that its usage will provide tangible <br />
             results in our mission. I will schedule a <br />
+            <br />
             Zoom meeting where we can discuss safe handling as well as <br />
             examples of how this can benefit us. Until then, I will not accept
             any <br />
